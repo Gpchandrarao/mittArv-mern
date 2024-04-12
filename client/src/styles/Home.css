@@ -1,0 +1,91 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: silver;
+  padding: 20px;
+}
+
+.heading-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  font-size: 20px;
+  font-weight: 800;
+  outline: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.logout:hover {
+  opacity: 0.6;
+}
+
+.home-container h1 {
+  text-align: center;
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.al {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  position: relative;
+}
+.recipes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.title {
+  color: #12ad2b;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 -10px;
+}
+.title span {
+  margin: 0 15px;
+}
+
+.recipes span {
+  color: #000;
+  font-weight: bolder;
+  font-size: 30px;
+  font-weight: 800;
+  opacity: 2;
+}
+.title-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.des {
+  color: #12ad2b;
+
+  width: 450px;
+  font-size: 20px;
+  font-weight: bolder;
+  /* font-weight: bolder; */
+}
+
+.des p {
+  font-size: 20px;
+  font-weight: 800;
+}
